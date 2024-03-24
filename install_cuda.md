@@ -5,7 +5,8 @@
 
 `sudo bash -c "echo options nouveau modeset=0 >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"`
 
-` sudo update-initramfs -u`
+`sudo update-initramfs -u`
+
 ## Purge Old Drivers
 
 `sudo apt-get purge *nvidia*`
