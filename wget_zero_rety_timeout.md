@@ -1,0 +1,1 @@
+`wget --read-timeout=10 --continue --progress=dot:mega --tries=0 URL`
